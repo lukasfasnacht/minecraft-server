@@ -8,10 +8,11 @@ services:
    - "25565:25565"
   environment:
     EULA: "TRUE"
-    TYPE: "BUKKIT"
+    TYPE: "SPIGOT"
     OPS: "lukifasii"
     ENABLE_WHITELIST: "TRUE"
     ENFORCE_WHITELIST: "TRUE"
+    EXEC_DIRECTLY: "TRUE"
   tty: true
   stdin_open: true
   restart: unless-stopped
